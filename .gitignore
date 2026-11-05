@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.idea/
+
+# Frontend extras
+*.log
+dist-ssr/
+*.local
